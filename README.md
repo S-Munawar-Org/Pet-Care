@@ -17,15 +17,15 @@ PetCare is a modern web application designed to empower pet owners and veterinar
 
 ## 📸 Screenshots
 
-| Register                                                                                                        | Login                                                                                                                 |
-|-----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| ![Register Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/petcare/static/images/Register.png)       | ![Login Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/petcare/static/images/Login.png)                   |
-| **Home**                                                                                                        | **Add Pet**                                                                                                           |
-| ![Home Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/petcare/static/images/Home.png)                  | ![Add Pet Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/petcare/static/images/Add_Pet.png)               |
-| **Health Analysis**                                                                                             | **Consult Veterinarian**                                                                                              |
-| ![Health Analysis](https://raw.githubusercontent.com/S-Munawar/Pet-Care/petcare/static/images/Health_Analysis.png) | ![Consult Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/petcare/static/images/Consult_vet.png)           |
-| **Profile**                                                                                                     | **AI Pet Advisor**                                                                                                    |
-| ![Profile Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/petcare/static/images/Profile.png)            | ![AI Pet Advisor Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/petcare/static/images/AI_Pet_Advisor.png) |
+| Register | Login |
+| :--- | :--- |
+| ![Register Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/Register.png) | ![Login Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/Login.png) |
+| **Home** | **Add Pet** |
+| ![Home Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/Home.png) | ![Add Pet Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/Add_Pet.png) |
+| **Health Analysis** | **Consult Veterinarian** |
+| ![Health Analysis](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/Health_Analysis.png) | ![Consult Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/Consult_vet.png) |
+| **Profile** | **AI Pet Advisor** |
+| ![Profile Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/Profile.png) | ![AI Pet Advisor Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/AI_Pet_Advisor.png) |
 
 ## 🛠️ Technology Stack
 
@@ -33,7 +33,7 @@ PetCare is a modern web application designed to empower pet owners and veterinar
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Bootstrap](httpshttps://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 * **Backend:** Flask, Flask-Login, Flask-Bcrypt, Gunicorn
