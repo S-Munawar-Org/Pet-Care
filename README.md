@@ -17,15 +17,15 @@ PetCare is a modern web application designed to empower pet owners and veterinar
 
 ## 📸 Screenshots
 
-| Register                                                                                                 | Login                                                                                               |
-| -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![Register Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/Register.png)     | ![Login Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/Login.png)       |
-| **Home** | **Add Pet** |
-| ![Home Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/Home.png)             | ![Add Pet Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/Add_Pet.png)     |
-| **Health Analysis** | **Consult Veterinarian** |
-| ![Health Analysis](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/Health_Analysis.png) | ![Consult Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/Consult_vet.png) |
-| **Profile** | **AI Pet Advisor** |
-| ![Profile Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/Profile.png)       | ![AI Pet Advisor Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/AI_Pet_Advisor.png) |
+| Register                                                                                                        | Login                                                                                               |
+|-----------------------------------------------------------------------------------------------------------------| --------------------------------------------------------------------------------------------------- |
+| ![Register Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/petcate/static/images/Register.png)       | ![Login Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/petcate/static/images/Login.png)       |
+| **Home**                                                                                                        | **Add Pet** |
+| ![Home Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/petcate/static/images/Home.png)                  | ![Add Pet Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/petcate/static/images/Add_Pet.png)     |
+| **Health Analysis**                                                                                             | **Consult Veterinarian** |
+| ![Health Analysis](https://raw.githubusercontent.com/S-Munawar/Pet-Care/petcate/static/images/Health_Analysis.png) | ![Consult Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/petcate/static/images/Consult_vet.png) |
+| **Profile**                                                                                                     | **AI Pet Advisor** |
+| ![Profile Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/petcate/static/images/Profile.png)            | ![AI Pet Advisor Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/petcate/static/images/AI_Pet_Advisor.png) |
 
 ## 🛠️ Technology Stack
 
