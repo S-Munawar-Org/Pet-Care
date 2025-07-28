@@ -17,15 +17,15 @@ PetCare is a modern web application designed to empower pet owners and veterinar
 
 ## 📸 Screenshots
 
-| Register                                                                                               | Login                                                                                             |
-| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- |
-| ![Register Page](https://raw.githubusercontent.com/yourusername/PetCare/main/static/images/Register.png) | ![Login Page](https://raw.githubusercontent.com/yourusername/PetCare/main/static/images/Login.png) |
+| Register                                                                                                 | Login                                                                                               |
+| -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| ![Register Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/Register.png)     | ![Login Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/Login.png)       |
 | **Home** | **Add Pet** |
-| ![Home Page](https://raw.githubusercontent.com/yourusername/PetCare/main/static/images/Home.png)       | ![Add Pet Page](https://raw.githubusercontent.com/yourusername/PetCare/main/static/images/Add_Pet.png) |
+| ![Home Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/Home.png)             | ![Add Pet Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/Add_Pet.png)     |
 | **Health Analysis** | **Consult Veterinarian** |
-| ![Health Analysis](https://raw.githubusercontent.com/yourusername/PetCare/main/static/images/Health_Analysis.png) | ![Consult Page](https://raw.githubusercontent.com/yourusername/PetCare/main/static/images/Consult_vet.png) |
+| ![Health Analysis](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/Health_Analysis.png) | ![Consult Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/Consult_vet.png) |
 | **Profile** | **AI Pet Advisor** |
-| ![Profile Page](https://raw.githubusercontent.com/yourusername/PetCare/main/static/images/Profile.png) | ![AI Pet Advisor Page](https://raw.githubusercontent.com/yourusername/PetCare/main/static/images/AI_Pet_Advisor.png) |
+| ![Profile Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/Profile.png)       | ![AI Pet Advisor Page](https://raw.githubusercontent.com/S-Munawar/Pet-Care/main/static/images/AI_Pet_Advisor.png) |
 
 ## 🛠️ Technology Stack
 
@@ -59,8 +59,8 @@ Follow these instructions to get a local copy of the project up and running.
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/yourusername/PetCare.git](https://github.com/yourusername/PetCare.git)
-    cd PetCare
+    git clone [https://github.com/S-Munawar/Pet-Care.git](https://github.com/S-Munawar/Pet-Care.git)
+    cd Pet-Care
     ```
 
 2.  **Create and Activate a Virtual Environment**
