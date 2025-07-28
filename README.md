@@ -17,15 +17,15 @@ PetCare is a modern web application designed to empower pet owners and veterinar
 
 ## 📸 Screenshots
 
-| Register                               | Login                                |
-| -------------------------------------- | ------------------------------------ |
-| ![Register Page](Images/1.png)         | ![Login Page](Images/2.png)          |
-| **Home** | **Add Pet** |
-| ![Home Page](Images/3.png)             | ![Add Pet Page](Images/4.png)        |
-| **Health Analysis** | **Consult Veterinarian** |
-| ![Health Analysis](Images/5.png)       | ![Consult Page](Images/6.png)        |
-| **Profile** | **AI Pet Advisor** |
-| ![Profile Page](Images/7.png)          | ![AI Pet Advisor Page](Images/8.png) |
+| Register                                       | Login                                             |
+|------------------------------------------------|---------------------------------------------------|
+| ![Register Page](Images/Register.png)          | ![Login Page](Images/Login.png)                   |
+| **Home**                                       | **Add Pet**                                       |
+| ![Home Page](Images/Home.png)                  | ![Add Pet Page](Images/Add_Pet.png)               |
+| **Health Analysis**                            | **Consult Veterinarian**                          |
+| ![Health Analysis](Images/Health_Analysis.png) | ![Consult Page](Images/Consult_vet.png)           |
+| **Profile**                                    | **AI Pet Advisor**                                |
+| ![Profile Page](Images/Profile.png)            | ![AI Pet Advisor Page](Images/AI_Pet_Advisor.png) |
 
 ## 🛠️ Technology Stack
 
