@@ -17,15 +17,15 @@ PetCare is a modern web application designed to empower pet owners and veterinar
 
 ## 📸 Screenshots
 
-| Register                                       | Login                                             |
-|------------------------------------------------|---------------------------------------------------|
-| ![Register Page](static/images/Register.png)          | ![Login Page](static/images/Login.png)                   |
-| **Home**                                       | **Add Pet**                                       |
-| ![Home Page](static/images/Home.png)                  | ![Add Pet Page](static/images/Add_Pet.png)               |
-| **Health Analysis**                            | **Consult Veterinarian**                          |
-| ![Health Analysis](static/images/Health_Analysis.png) | ![Consult Page](static/images/Consult_vet.png)           |
-| **Profile**                                    | **AI Pet Advisor**                                |
-| ![Profile Page](static/images/Profile.png)            | ![AI Pet Advisor Page](static/images/AI_Pet_Advisor.png) |
+| Register                                                                                               | Login                                                                                             |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- |
+| ![Register Page](https://raw.githubusercontent.com/yourusername/PetCare/main/static/images/Register.png) | ![Login Page](https://raw.githubusercontent.com/yourusername/PetCare/main/static/images/Login.png) |
+| **Home** | **Add Pet** |
+| ![Home Page](https://raw.githubusercontent.com/yourusername/PetCare/main/static/images/Home.png)       | ![Add Pet Page](https://raw.githubusercontent.com/yourusername/PetCare/main/static/images/Add_Pet.png) |
+| **Health Analysis** | **Consult Veterinarian** |
+| ![Health Analysis](https://raw.githubusercontent.com/yourusername/PetCare/main/static/images/Health_Analysis.png) | ![Consult Page](https://raw.githubusercontent.com/yourusername/PetCare/main/static/images/Consult_vet.png) |
+| **Profile** | **AI Pet Advisor** |
+| ![Profile Page](https://raw.githubusercontent.com/yourusername/PetCare/main/static/images/Profile.png) | ![AI Pet Advisor Page](https://raw.githubusercontent.com/yourusername/PetCare/main/static/images/AI_Pet_Advisor.png) |
 
 ## 🛠️ Technology Stack
 
