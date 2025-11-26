@@ -12,6 +12,8 @@ services:
       - .:/app
     env_file:
       - .env
+    environment:
+      - MONGO_URI=${MONGO_URI}
     depends_on:
       mongo:
         condition: service_started

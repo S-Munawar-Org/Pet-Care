@@ -9,6 +9,8 @@ services:
       - "80:5000"
     env_file:
       - .env
+    environment:
+      - MONGO_URI=${MONGO_URI}
     depends_on:
       mongo:
         condition: service_started
