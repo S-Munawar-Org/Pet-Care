@@ -23,6 +23,9 @@ RUN addgroup --system nonroot && adduser --system --ingroup nonroot nonroot
 # Copy the rest of the application code
 COPY . .
 
+# Generate ML models at build time (as root before switching users)
+RUN python create_dataset_and_model.py
+
 # NEW: Change ownership of the app directory to the non-root user
 RUN chown -R nonroot:nonroot /app
 
