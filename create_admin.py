@@ -22,7 +22,7 @@ def create_admin_user():
     client = None  # Initialize client to None
     try:
         client = MongoClient(mongo_uri)
-        db = client.get_database()
+        db = client.petcare_db  # Specify database name
         users_collection = db.users
         bcrypt = Bcrypt()
     except Exception as e:

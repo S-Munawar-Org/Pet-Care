@@ -30,7 +30,13 @@ app.config['MAIL_DEFAULT_SENDER'] = os.getenv('MAIL_USERNAME')
 app.wsgi_app = WhiteNoise(app.wsgi_app, root='static/')
 
 # --- Initialize Extensions ---
-mongo = PyMongo(app)
+try:
+    mongo = PyMongo(app)
+    # Test the connection
+    mongo.db.list_collection_names()
+except Exception as e:
+    print(f"MongoDB initialization error: {e}")
+    mongo = None
 bcrypt = Bcrypt(app)
 oauth = OAuth(app)
 # Initialize Mail

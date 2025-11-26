@@ -230,6 +230,25 @@ def google_login():
 def google_auth():
     """Handles the callback from Google and directs the user to the correct completion page."""
     try:
+        # Check MongoDB connection
+        if mongo is None:
+            print("MongoDB instance is None")
+            flash("Database connection error. Please try again.", "danger")
+            return redirect(url_for('login_page'))
+            
+        if mongo.db is None:
+            print("MongoDB database is None")
+            flash("Database connection error. Please try again.", "danger")
+            return redirect(url_for('login_page'))
+            
+        # Test database access
+        try:
+            mongo.db.users.find_one({})
+        except Exception as db_error:
+            print(f"Database access error: {db_error}")
+            flash("Database access error. Please try again.", "danger")
+            return redirect(url_for('login_page'))
+            
         token = oauth.google.authorize_access_token()
         user_info = token.get('userinfo')
         intended_role = session.pop('google_auth_role', 'user')
@@ -275,8 +294,10 @@ def google_auth():
                 return redirect(url_for('complete_user_registration'))
 
     except Exception as e:
+        import traceback
         print(f"Error during Google authentication: {e}")
-        flash("An error occurred during Google authentication. Please try again.", "danger")
+        print(f"Traceback: {traceback.format_exc()}")
+        flash(f"Google authentication error: {str(e)}", "danger")
         return redirect(url_for('login_page'))
 
 
