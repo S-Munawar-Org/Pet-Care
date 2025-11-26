@@ -27,10 +27,15 @@ from .models import User, Pet, HealthReport, VetLicense
 # ==============================================================================
 
 # --- ML Model Loading ---
-with open('pet_health_model.pkl', 'rb') as f:
-    model = pickle.load(f)
-with open('encoders.pkl', 'rb') as f:
-    encoders = pickle.load(f)
+try:
+    with open('pet_health_model.pkl', 'rb') as f:
+        model = pickle.load(f)
+    with open('encoders.pkl', 'rb') as f:
+        encoders = pickle.load(f)
+except FileNotFoundError:
+    print("ML model files not found - health prediction will be disabled")
+    model = None
+    encoders = None
 
 # --- Timed Serializer for Tokens ---
 s = URLSafeTimedSerializer(app.config['SECRET_KEY'])
@@ -497,6 +502,9 @@ def ai_pet_advisor_page():
 @login_required
 def predict_health():
     try:
+        if model is None or encoders is None:
+            return jsonify({"error": "Health prediction service unavailable"}), 503
+            
         data = request.get_json()
         species = data.get('species')
         temp = float(data.get('temperature') or 0)
